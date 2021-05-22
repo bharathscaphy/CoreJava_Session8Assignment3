@@ -14,6 +14,8 @@ public class ThreadAdd extends Thread{
 		super.run();
 		long startTime = System.currentTimeMillis();
 		long ans = 0;
+		
+		
 		for (long i = start; i<= end; i++){
 			ans += i;
 		}
